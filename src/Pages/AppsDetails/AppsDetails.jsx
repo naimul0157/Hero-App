@@ -15,11 +15,11 @@ const AppsDetails = () => {
         setinstalled(!installed);
     }
     return (
-        <div className='mt-10 mx-10 flex gap-10'>
-            <div className='w-2/5'>
-                <img className='h-100' src={image} alt="" />
+        <div className='mt-10 mx-10 md:flex gap-10'>
+            <div className='md:w-2/5 flex justify-center'>
+                <img className='md:h-100 h-60' src={image} alt="" />
             </div>
-            <div className='w-3/5'>
+            <div className='md:w-3/5'>
                 <h1 className='font-bold text-3xl mb-2'>
                     {title}
                 </h1>
@@ -27,7 +27,7 @@ const AppsDetails = () => {
                     <span className='text-gray-400'>Dveloped By:</span> <span className='text-blue-600'>{companyName}</span>
                     <div className='border border-gray-500 mt-3'></div>
                 </h1>
-                <div className='flex gap-20 mt-5'>
+                <div className='flex md:gap-20 gap-5 mt-5'>
                     <div>
 
                         <DownloadIcon size={'5vw'} stroke='green'></DownloadIcon>

@@ -7,7 +7,7 @@ const TrendingAppDetails = ({ PromiseData }) => {
     // console.log(TrendingData);
     return (
         <div>
-            <div className='grid grid-cols-3 gap-5 w-4/5 mx-auto'>
+            <div className='grid md:grid-cols-3 gap-5 w-4/5 mx-auto'>
                 {
                     TrendingData.map(data => <TrendingAppDetail key={data.id} data={data}></TrendingAppDetail>)
                 }
