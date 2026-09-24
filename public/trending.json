@@ -1,0 +1,164 @@
+[
+  {
+    "image": "https://static1.squarespace.com/static/53641394e4b0a8d04d9364c7/536414ebe4b08e20f53c899c/6154277b3bdf4b03a5f13ee0/1751620463108/Todoist%2BLogo.png?format=1500w",
+    "title": "Todoist",
+    "companyName": "Doist",
+    "id": 1,
+    "description": "A powerful task management app that helps users organize tasks, projects, and daily activities.",
+    "size": 40,
+    "reviews": 125000,
+    "ratingAvg": 4.6,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 3500 },
+      { "name": "2 star", "count": 4200 },
+      { "name": "3 star", "count": 9500 },
+      { "name": "4 star", "count": 28500 },
+      { "name": "5 star", "count": 79300 }
+    ]
+  },
+  {
+    "image": "https://img.tw.my-best.com/product_images/ee499087eb1162269b4e831b9d12c101.png?fit=clip&h=800&ixlib=rails-4.3.1&lossless=0&q=70&s=444e8abd6594761fa6bf555d9254c36c&w=800",
+    "title": "Strava",
+    "companyName": "Strava Inc.",
+    "id": 2,
+    "description": "A fitness tracking app for running, cycling, walking, hiking, and other activities.",
+    "size": 45,
+    "reviews": 1180000,
+    "ratingAvg": 4.6,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 25000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 70000 },
+      { "name": "4 star", "count": 280000 },
+      { "name": "5 star", "count": 775000 }
+    ]
+  },
+  {
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cb/f4/5b/cbf45b7a-4e41-89ab-7915-6e8d3062b402/icon.png/1200x630bb.png",
+    "title": "Evernote",
+    "companyName": "Evernote Corporation",
+    "id": 3,
+    "description": "A note-taking and organization app for creating notes, managing tasks, and saving important information.",
+    "size": 65,
+    "reviews": 180000,
+    "ratingAvg": 4.4,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 9000 },
+      { "name": "3 star", "count": 22000 },
+      { "name": "4 star", "count": 48000 },
+      { "name": "5 star", "count": 93000 }
+    ]
+  },
+  {
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/27/57/c0/2757c012-872c-f6e2-1ab8-caba1f1848c3/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/1200x630wa.png",
+    "title": "Spendee",
+    "companyName": "SPENDEE a.s.",
+    "id": 4,
+    "description": "A personal finance app that helps users track expenses, manage budgets, and understand their spending.",
+    "size": 35,
+    "reviews": 45000,
+    "ratingAvg": 4.5,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 24700 }
+    ]
+  },
+  {
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2c/2a/ca/2c2acaad-ac8f-1dbe-6af5-6ded0e02d5e3/Placeholder.mill/1200x630wa.jpg",
+    "title": "Duolingo",
+    "companyName": "Duolingo",
+    "id": 5,
+    "description": "A gamified language-learning app that helps users learn languages through short interactive lessons.",
+    "size": 80,
+    "reviews": 2500000,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 1830000 }
+    ]
+  },
+  {
+    "image": "https://icons.iconarchive.com/icons/xenatt/the-circle/128/App-Spotify-icon.png",
+    "title": "WeatherNow",
+    "companyName": "Weather Labs",
+    "id": 6,
+    "description": "A weather application providing current conditions, forecasts, temperature updates, and weather alerts.",
+    "size": 25,
+    "reviews": 78000,
+    "ratingAvg": 4.3,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 11000 },
+      { "name": "4 star", "count": 22000 },
+      { "name": "5 star", "count": 36000 }
+    ]
+  },
+{
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
+  "title": "Telegram",
+  "companyName": "Telegram",
+  "id": 7,
+  "description": "A fast and secure messaging application for chatting, calling, sharing files, and creating large communities.",
+  "size": 60,
+  "reviews": 3200000,
+  "ratingAvg": 4.6,
+  "downloads": 1000000000,
+  "ratings": [
+    { "name": "1 star", "count": 45000 },
+    { "name": "2 star", "count": 55000 },
+    { "name": "3 star", "count": 130000 },
+    { "name": "4 star", "count": 650000 },
+    { "name": "5 star", "count": 2320000 }
+  ]
+},
+  {
+    "image": "https://plugins-media.makeupar.com/smb/blog/post/2022-05-20/dd032388-0a1e-4c21-9530-a21853b73e57.png",
+    "title": "Snapseed",
+    "companyName": "Google LLC",
+    "id": 8,
+    "description": "A professional photo editing application with filters, effects, enhancement tools, and advanced editing features.",
+    "size": 95,
+    "reviews": 1800000,
+    "ratingAvg": 4.5,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 25000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 85000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 1260000 }
+    ]
+  },
+  {
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/75/Netflix_icon.svg",
+  "title": "Netflix",
+  "companyName": "Netflix, Inc.",
+  "id": 9,
+  "description": "A popular streaming application for watching movies, TV shows, documentaries, and original content.",
+  "size": 75,
+  "reviews": 4200000,
+  "ratingAvg": 4.5,
+  "downloads": 1000000000,
+  "ratings": [
+    { "name": "1 star", "count": 85000 },
+    { "name": "2 star", "count": 95000 },
+    { "name": "3 star", "count": 210000 },
+    { "name": "4 star", "count": 850000 },
+    { "name": "5 star", "count": 2960000 }
+  ]
+}  
+]
