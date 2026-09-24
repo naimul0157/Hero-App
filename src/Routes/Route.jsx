@@ -25,6 +25,7 @@ export const router = createBrowserRouter([
         },
         {
             path: '/:id',
+            loader: ()=> fetch('trending.json').then(res => res.json()),
             Component: AppsDetails
         }
     

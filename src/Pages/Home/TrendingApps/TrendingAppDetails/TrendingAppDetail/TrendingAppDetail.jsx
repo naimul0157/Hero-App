@@ -20,15 +20,15 @@ const TrendingAppDetail = ({ data }) => {
                     </h1>
                 </div>
                 <div className='w-4/5 mx-auto flex justify-between'>
-                    <h1 className='flex items-center'>
+                    <h1 className='flex items-center px-2 rounded-md bg-green-200'>
                         <IoMdDownload></IoMdDownload>
                         {new Intl.NumberFormat("en", {
                             notation: "compact",
                             maximumFractionDigits: 1
                         }).format(downloads)}
                     </h1>
-                    <h1 className='flex items-center gap-2'>
-                        <FaRegStar fill='gold'></FaRegStar> {ratingAvg}
+                    <h1 className='flex items-center gap-2 px-2 rounded-md bg-orange-300'>
+                        <FaRegStar></FaRegStar> {ratingAvg}
                     </h1>
                 </div>
             </Link>
