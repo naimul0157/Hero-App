@@ -18,7 +18,7 @@ const Banner = () => {
                         At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br /> Our goal is to turn your ideas into digital experiences that truly make an impact.
                     </small>
                 </div>
-                <div className='flex gap-5 justify-center mb-10'>
+                <div className='flex flex-wrap gap-5 justify-center mb-10'>
                     <Link to={'https://play.google.com/store/apps?hl=en'}><button className='btn'><img src={playstore} alt="" />Play Store </button></Link>
                     <Link to={'https://apps.apple.com/us/app/imposter-game-spy-fakeit/id6749012623'}><button className='btn'><FaAppStoreIos fill='#0073F6' className='text-4xl'></FaAppStoreIos>App Store </button></Link>
                 </div>

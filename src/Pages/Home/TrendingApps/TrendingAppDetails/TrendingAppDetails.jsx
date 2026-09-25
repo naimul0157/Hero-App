@@ -3,7 +3,8 @@ import TrendingAppDetail from './TrendingAppDetail/TrendingAppDetail';
 import { NavLink } from 'react-router';
 
 const TrendingAppDetails = ({ PromiseData }) => {
-    const TrendingData = use(PromiseData);
+    const TrendingData = use(PromiseData).slice(0, 9);
+    
     // console.log(TrendingData);
     return (
         <div>
