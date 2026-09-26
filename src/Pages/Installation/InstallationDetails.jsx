@@ -5,7 +5,7 @@ import React from 'react';
 const InstallationDetails = ({ result }) => {
     const { id, image, title, downloads, ratingAvg, size } = result;
     return (
-        <div className='w-4/5 mx-auto mt-10 rounded-2xl bg-gray-200 px-5 py-5 flex gap-10'>
+        <div className='w-4/5 mx-auto mt-10 mb-10 rounded-2xl bg-gray-200 px-5 py-5 flex gap-10'>
             <div className='w-1/5 p-2 rounded-2xl flex justify-center bg-white'>
                 <img className='h-25' src={image} alt="" />
             </div>
