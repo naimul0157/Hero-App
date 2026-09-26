@@ -4,17 +4,19 @@ import { ArrowDownToLine, DownloadIcon, Star, ThumbsUp } from 'lucide-react';
 import { useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import Barchart from './Barchart/Barchart';
+import { addinstallationData, getinstallationData } from '../../Utility/AddDb';
 
 
 const AppsDetails = () => {
     const number = useParams().id;
     const FetchData = useLoaderData();
     const result = FetchData.find(data => number == data.id);
-    const { image, title, companyName, downloads, ratingAvg, reviews, size, ratings, description } = result;
+    const { image, title, companyName, downloads, ratingAvg, reviews, size, ratings, description, id } = result;
     const [installed, setinstalled] = useState(false);
 
     const handleInstalled = () => {
         setinstalled(!installed);
+        addinstallationData(id);
     }
     console.log(ratings);
     return (

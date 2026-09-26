@@ -10,7 +10,7 @@ const TrendingAppDetail = ({ data }) => {
 
     return (
         <div className='rounded-2xl py-5 border-gray-400 bg-gray-200'>
-            <Link to={`/${id}`}>
+            <a href={`/${id}`}>
                 <div className='w-4/5 mx-auto border flex justify-center rounded-2xl border-gray-100 bg-white'>
                     <img className='h-50 py-5 px-5 w-3/5 overflow-hidden' src={image} alt="" />
                 </div>
@@ -31,7 +31,7 @@ const TrendingAppDetail = ({ data }) => {
                         <FaRegStar></FaRegStar> {ratingAvg}
                     </h1>
                 </div>
-            </Link>
+            </a>
         </div>
     );
 };

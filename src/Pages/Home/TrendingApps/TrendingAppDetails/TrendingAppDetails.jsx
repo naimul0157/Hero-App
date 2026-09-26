@@ -14,7 +14,7 @@ const TrendingAppDetails = ({ PromiseData }) => {
                 }
             </div>
             <div className='flex justify-center w-full mt-5 mb-5'>
-                <NavLink to={'/apps'}><button className='btn btn-primary'>Show More </button></NavLink>
+                <a href={'/apps'}><button className='btn btn-primary'>Show More </button></a>
             </div>
         </div>
     );
